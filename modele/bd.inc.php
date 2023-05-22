@@ -1,17 +1,10 @@
 <?php
 
 function connexionPDO() {
-    // $login = "res_v2";
-    // $mdp = "#085E9sho";
-    // $bd = "crosl_v2";
-    // $serveur = "androcode.fr";
-
-    // Copie de la BDD dans /doc
-
-    $login = "root";
-    $mdp = "";
-    $bd = "crosl_v2";
-    $serveur = "localhost";
+    $login = "res_e5";
+    $mdp = "!bqw291Z6";
+    $bd = "crosl_e5";
+    $serveur = "androcode.fr";
 
     try {
         $conn = new PDO("mysql:host=$serveur;dbname=$bd", $login, $mdp, array(PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES \'UTF8\'')); 
