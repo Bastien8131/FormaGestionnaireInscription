@@ -1,0 +1,139 @@
+/*main{
+    font-family: 'Calibri';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}*/
+
+#globalCard{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1384px;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+#card{
+    border: 0.5px black solid;
+    border-radius: 15px;
+    padding: 10px;
+    max-width: 412px;
+    width: 100%;
+    margin: 10px;
+    background-color: white;
+}
+
+#card:hover{
+    border-color: rgb(0, 140, 255);
+}
+
+#titleCard{
+    border-bottom: 1px black solid;
+}
+
+#descCard{
+    border-bottom: 1px black solid;
+    margin-bottom: 10px;
+}
+
+#moreInfo{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+#mainSessCard{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#suppCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+#globalSesscard > h3{
+    text-align: center;
+}
+
+/*1470*/
+/*1210*/
+@media screen and (min-width: 1200px) {
+
+    #globalCard{
+        display: flex;
+        min-width: initial;
+        justify-content: center;
+        min-width: 1070px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #infoCard{
+        border-right: 1px black solid;
+        padding-right: 10px;
+        margin-right: 10px;
+        width: 50%;
+    }
+
+    #card{
+        border: 0.5px black solid;
+        border-radius: 15px;
+        padding: 10px;
+        max-width: initial;
+        margin: 10px;
+        display: flex;
+        background-color: white;
+    }
+    
+    #titleCard{
+        border-bottom: 1px black solid;
+    }
+
+    #descCard{
+        border-bottom: 0px;
+        margin-bottom: 0px;
+    }
+    
+    #mainSessCard{
+        display: flex;
+        flex-wrap: initial;
+        justify-content: space-around;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    #childSessCard{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    #childSessCardButton{
+        display: flex;
+        gap: 5px;
+    }
+
+    #dateSesscard, #hdSessCard, #hfSessCard{
+        margin-right: 15px;
+    }
+
+    #globalSesscard{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}

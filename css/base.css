@@ -1,0 +1,134 @@
+html{
+    height: 100%;
+}
+
+body{
+    font-family: 'Calibri';
+    min-height: 100%;
+    background-color: #faf9f8;
+	display : table;
+	width: 99%;
+    /*background-image: url("../img/jpg/pexels-rachel-claire-4857757-75.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: bottom;*/
+}
+
+/*footer{
+    height: 100px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-top: 2px rgb(194, 194, 194) solid;
+}*/
+
+footer{
+    display : table-row;
+	height: 100px;
+    background-color: white;
+    margin-top: 10%;
+}
+
+#contentFooter{
+    border-top: 0.2px black solid;
+    display: flex;
+    width: 100%;
+    height: 100px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+.logo2{
+    height: 50px;
+}
+
+h1{
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+button, input, select, .divButton{
+    width: 100px;
+    height: 32px;
+    border-width: 0.5px;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    transition: all 0.25s;
+    cursor: pointer;
+    color: black;
+}
+
+button:disabled{
+    color: gray;
+}
+
+button:disabled:hover{
+    background-color: #fafafa;
+    color: gray;
+}
+
+.divButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0;
+    border: black 0.2px solid;
+    /* width: 50px; */
+}
+
+textarea, select{
+    width: 90%;
+    margin: auto;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+select{
+    height: auto;
+}
+
+input{
+    width: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+input[type="text"], textarea{
+    cursor: text;
+}
+
+button:hover, .divButton:hover{
+    background-color: rgb(0, 140, 255);
+    color: white;
+}
+
+#btnSupp:hover{
+    background-color: red;
+    color: white;
+}
+
+#btnReini:hover{
+    background-color: rgb(152, 152, 152);
+    color: white;
+}
+
+#btnDiv1{
+    font-size: larger;
+    color:black;
+    min-width: 0;
+    width: auto;
+    transition: all 0.2s;
+}
+
+#btnDiv1:hover{
+    background-color: #faf9f8;
+}

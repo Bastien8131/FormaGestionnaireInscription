@@ -1,0 +1,75 @@
+nav{
+    height: 50px;
+}
+
+#backNav{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: fixed;
+    background-color: white;
+    border-bottom: 2px rgb(194, 194, 194) solid;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+#globalNav{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+#logoNav{
+    height: auto;
+    max-height: 50px;
+    width: 146px;
+}
+
+#logo1{
+    height: 100%;
+}
+
+#mainNav{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 400px;
+}
+
+#elementNav{
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    display: table-cell; /* comportement visuel de cellule */
+    vertical-align: middle;
+    border-bottom: 2px white solid;
+    color: black;
+}
+
+#elementNav:hover{
+    border-bottom: 2px black solid;
+}
+
+#navForm{
+    margin-top: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.linkNavForm{
+    width: 100%;
+}
+
+@media screen and (max-width: 1103px){
+
+}
+
+
+@media screen and (max-width: 800px){
+    #logoNav{
+        visibility: hidden;
+        height: 0;
+        width: 0;
+    }
+}

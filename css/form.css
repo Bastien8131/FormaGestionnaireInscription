@@ -1,0 +1,232 @@
+#zoneLogin, #zoneProfil, #zoneAddFormation, .zoneDefault{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#zoneProfil, #zoneAddFormation, .zoneDefault{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+
+#backLogin, #backProfil, #backAddformation, .backDefault{
+    min-width: 350px;
+    text-align: center;
+    background-color: white;
+    border: 0.5px black solid;
+    border-radius: 20px;
+    padding: 15px;
+    width: min-content;
+}
+
+.zoneChildProf, .sectionChildAddF{
+    width: auto;
+}
+
+#imgLogZone{
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 0.5px black solid;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+#imgLog{
+    width: auto;
+    height: 120px;
+    border: 1px black solid;
+    border-radius: 100%;
+}
+
+#txtaAddFrom{
+    resize: vertical;
+    min-height: 100px;
+    height: 100px;
+}
+
+.zoneChildAddF, .zoneChildDefault{
+    display: block
+}
+
+.titreFrom, #titreAcc{
+    height: 75px;
+    display: flex;
+    border-bottom: 0.5px black solid;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+#titreAcc{
+    border: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.textZone1, .textZone2, .textZone3{
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.textZone1{
+    justify-content: space-between;
+}
+
+.textZone2, .textZone3{
+    justify-content: space-around;
+}
+
+.inputAddS{
+    min-width: 200px;
+}
+
+.txtInput{
+    width: 100%;
+    text-align: right;
+    margin-right: 42px;
+}
+
+.bullInfo1, .bullInfo2{
+    display: flex;
+    flex-direction: column;
+    border: 0.2px black solid;
+    border-radius: 30px;
+    width: auto;
+    height: 100px;
+    justify-content: center;
+    transition: all 0.2s;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.bullInfo1:hover, .bullInfo2:hover{
+    box-shadow: 0 0 50px 0 rgb(231, 231, 231);
+}
+
+.bullValue{
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.bullTxt{
+    font-weight: bolder;
+    padding-top: 5px;
+}
+
+.sectionChildCRendu{
+    width: 100%;
+    text-align: left;
+}
+
+.lineChildCRendu1, .lineChildCRendu2{
+    min-height: 38px;
+    display: flex;
+    padding: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.lineChildCRendu1{
+    background-color: #1f2240;
+    color: white;
+}
+
+.titreChildCRendu{
+    width: 50%;
+}
+
+.commChildCRendu{
+    width: 75%;
+    padding: 10px 0 10px 0;
+}
+
+.infoChildCRendu{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.infoChildCRenduAvis{
+    display: flex;
+    width: 25%;
+    flex-direction: column;
+    align-items: start;
+}
+
+@media screen and (min-width: 930px){
+    #backProfil, #backAddformation, .backDefault{
+        display: flex;
+        width: 100%;
+        max-width: 1342px;
+        justify-content: space-evenly;
+    }
+
+    #backAddformation, .backDefault{
+        flex-direction: column;
+    }
+
+    .zoneChildAddF,.zoneChildDefault{
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-evenly;
+        
+    }
+
+    #zoneChildCRendu{
+        flex-direction: column;
+    }
+
+    #zoneProfil,#zoneAddFormation, .zoneDefault{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .zoneChildProf, .sectionChildAddF{
+        width: 400px;
+    }
+
+    .inputAddF{
+        width: 300px;
+    }
+
+    .textZone3{
+        margin-right: 20px;
+    }
+
+    .infoChildCRendu{
+        display: flex;
+        width: 50%;
+        justify-content: space-between;
+        flex-direction: initial;
+        align-items: initial;
+    }
+
+    
+    .bullInfo1, .bullInfo2{
+        width: 200px;
+    }
+    
+    .bullInfo2{
+        width: 300px;
+    }
+}
